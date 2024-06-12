@@ -1,0 +1,561 @@
+html {
+    height: 100%;
+}
+
+.moneteblock img {
+  float: left;
+}
+
+.hof
+{
+  background-image: url(../img/UI/HoF.jpg);
+  background-size: cover;
+}
+
+.hof h1 {
+  padding-bottom: 34px;
+}
+
+.hof tr {
+  color: #fff;
+  text-shadow: 0px 0px 3px #000;
+}
+
+body.classificabox {
+  background-color: rgba(0, 0, 0, 0.7);
+  /* color: white !important; */
+}
+
+.progress-bar-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #000; /* Puoi cambiare il colore in base alla necessità */
+}
+
+
+
+section.monetasection {
+  padding-left: 18px;
+  /* margin-left: -1px; */
+  float: left;
+  padding-top: 0px;
+  color: aliceblue;
+  text-shadow: 0px 0px 2px #000;
+  background-color: darkgoldenrod;
+  border-radius: 18px;
+  padding-right: 5px;
+  margin-top: 6px;
+  margin-left: -13px;
+  font-size: 13px;
+  z-index: -9999;
+  position: relative;
+}
+
+.moneteblock {
+  padding-left: 6px;
+}
+
+
+.progress {
+    position: relative;
+}
+.progress-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black; /* Puoi cambiare il colore del testo a tuo piacimento */
+}
+
+.moneteblock {
+  padding-left: 8px;
+}
+
+.thegame h2 
+{
+    font-size: 20px;
+}
+
+.dashboard 
+{
+    background-image: url(../img/UI/bgdashboard.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.container.contentpage {
+  padding-top: 120px;
+}
+
+.card 
+{
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f8f9fa;
+  position: relative;
+  width: 200px;
+  height: 300px;
+  background-size: contain;
+  flex: none;
+  box-shadow: 1px 1px 3px;
+}
+
+.card .value {
+    background-color: #fff;
+    border-radius: 23px;
+    width: 16px;
+}
+
+.value {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.top { top: 2px; left: 50%; transform: translateX(-50%); }
+.top-right { top: 2px; right: 2px; }
+.right { top: 50%; right: 2px; transform: translateY(-50%); }
+.bottom-right { bottom: 2px; right: 2px; }
+.bottom { bottom: 2px; left: 50%; transform: translateX(-50%); }
+.bottom-left { bottom: 2px; left: 2px; }
+.left { top: 50%; left: 2px; transform: translateY(-50%); }
+.top-left { top: 2px; left: 2px; }
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.cell {
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 2px 2px 10px -4px;
+}
+
+.cell .card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.cards-container 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scoreboard.scoreutente {
+    position: fixed;
+    bottom: 0;
+}
+
+.scoreboard 
+{
+    width: 100%;
+    background-color: #fff;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+    color: #fff;
+}
+
+
+
+.coretableleft {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.coretableright
+{
+    float: left;
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.score 
+{
+  font-size: 12px;
+  font-weight: bold;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 6px;
+}
+
+body {
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lead {
+    text-align: center;
+}
+
+.mt-4 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.containeradmin {
+  width: 1200px;
+}
+
+.board-container .card {
+  background-size: cover !important;
+  background-position: center 86%;
+}
+
+
+/*SOLO IN TEST*/
+
+.thegame 
+{
+  background-image: url('../immagini_scenari/hell.jpg')!important;
+  background-size: cover;
+  background-position: center center;
+}
+
+.score h3 
+{
+  font-size: 22px;
+}
+
+text 
+{
+  padding-top: 24px !important;
+  position: absolute;
+}
+
+.firstmenu, .menu-center 
+{
+  width: 105px;
+  float: left;
+  text-align: left;
+}
+
+.menusub
+{
+    width: 50%;
+}
+
+.menu-right
+{
+    width: 50%;
+}
+
+.menu-center p 
+{
+  height: 0;
+  margin-bottom: 20px;
+}
+
+.starpunti {
+  padding-top: 0px;
+  margin-top: 2px;
+}
+
+.bloccopunti {
+  float: left;
+}
+
+.bloccopunti.numeropunti {
+  padding-top: 6px;
+}
+
+.top-menu.menu-right {
+  text-align: right;
+}
+
+.menuavatar {
+  border-radius: 75px;
+  border: solid 6px #fff;
+  box-shadow: -2px -3px 0px 0px #4B4B4B;
+}
+
+.username {
+  font-weight: bold;
+  padding-left: 6px;
+  color: #fff;
+  background-image: url('../img/UI/sfondonome.png') !important;
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.menu-center
+{
+    text-align: left;
+}
+
+.container.top-menu-full {
+  background-image: url('../img/UI/bgmenu.png')!important;
+  position: fixed;
+  z-index: 999;
+}
+
+.top-menu-full .row {
+  padding: 0 !important;
+  margin: 0;
+}
+
+.pulsantegiocaora {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 11px;
+  width: 100%;
+  text-align: center;
+}
+
+.medaglie 
+{
+  height: 46px;
+  position: fixed;
+  z-index: 5;
+  top: 3px;
+  left: 5px;
+}
+
+.my-css-class {
+  background-color: #ad242e;
+  color: #fff;
+  width: 39px;
+  height: 30px;
+  border-radius: 12px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.card-container {
+            perspective: 1000px;
+        }
+        .card {
+            width: 213px;
+            height: 300px;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+            cursor: pointer;
+            padding: 0;
+        }
+        .card-flip {
+            transform: rotateY(180deg);
+        }
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border: 1px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .card-front {
+            background-size: cover;
+        }
+        .card-back {
+            background-color: #f8f9fa;
+            transform: rotateY(180deg);
+        }
+        .value {
+            position: absolute;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .top { top: 2px; left: 50%; transform: translateX(-50%); }
+.top-right { top: 2px; right: 2px; }
+.right { top: 50%; right: 2px; transform: translateY(-50%); }
+.bottom-right { bottom: 2px; right: 2px; }
+.bottom { bottom: 2px; left: 50%; transform: translateX(-50%); }
+.bottom-left { bottom: 2px; left: 2px; }
+.left { top: 50%; left: 2px; transform: translateY(-50%); }
+.top-left { top: 2px; left: 2px; }
+
+@media only screen and (max-width: 560px) {
+  .firstmenu, .menu-center 
+    {
+      width: 80px;
+      float: left;
+      text-align: left;
+    }
+    .menuavatar {
+      border-radius: 75px;
+      border: solid 6px #fff;
+      box-shadow: 0px 0px 0px 3px #a97042;
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 754px) {
+        .dashboard .card-container.col-md-4 
+        {
+            width: 33%;
+            padding: 0px;
+        }
+
+        .dashboard .card {
+          width: 115px;
+          height: 160px;
+          margin: 0px!important;
+        }
+        
+        .dashboard .value 
+        {
+          font-size: 0.7em;
+        }
+        
+        .dashboard .card .value {
+          background-color: #fff;
+          border-radius: 23px;
+          width: 17px;
+        }
+        
+        .dashboard .contentpage > .row {
+  padding: 10px;
+}
+}
+
+
+
+.thegame .board .cell {
+    height: 150px;
+    padding: 3px;
+}
+
+.thegame .board {
+    gap: 1px;
+    flex: 1;
+}
+
+.thegame .board-container {
+    clear: both;
+}
+
+.numerolivelliblock {
+    float: right;
+    position: static;
+    margin-top: -21px;
+    padding: 0;
+}
+
+.barralivelli {
+    width: 80%;
+}
+
+.thegame .card {
+    width: 63px;
+    height: 90px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    cursor: pointer;
+    padding: 8px;
+    float: left;
+    margin: 3px;
+}
+
+.pulsantiuser 
+{
+    padding-top: 0px;
+    margin-top: -19px;
+}
+
+.progress-bar {
+    background-color: #a52934;
+}
+
+.thegame .cards-container {display: block!important;}
+.thegame .board .top {top: 2px;}
+.thegame .board .top-left { top: 2px; left: 2px;}
+.thegame .board .top-right {top: 2px;right: 2px;}
+.thegame .board .left {left: 2px;}
+.thegame .board .right {right: 2px;}
+.thegame .board .bottom-left { bottom: 2px; left: 2px; }
+.thegame .board .bottom-right { bottom: 2px; right: 2px;}
+.thegame .board .bottom {bottom: 2px;}
+.thegame .value {font-size: 0.7em; width: 16px;}.thegame 
+
+.thegame .card .top {top: 2px;}
+.thegame .card .top-left { top: 2px; left: 2px;}
+.thegame .card .top-right {top: 2px;right: 2px;}
+.thegame .card .left {left: 2px;}
+.thegame .card .right {right: 2px;}
+.thegame .card .bottom-left { bottom: 2px; left: 2px; }
+.thegame .card .bottom-right { bottom: 2px; right: 2px;}
+.thegame .card .bottom {bottom: 2px;}
+.thegame .value {font-size: 0.7em; width: 16px;}
+.progress {
+    position: relative!important;
+}
+.progress-text {
+    position: absolute!important;
+    width: 100%!important;
+    text-align: center!important;
+    top: 0!important;
+    left: 0!important;
+    height: 100%!important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    color: black!important; /* Puoi cambiare il colore del testo a tuo piacimento */
+}
